@@ -16,6 +16,7 @@
             </div>
             @endforeach
 
+            {{-- $data come with update, if click update button in home view $data has value, if not $data is null --}}
             @if ($data)
                 <form method="post" action="/updated">
             @else

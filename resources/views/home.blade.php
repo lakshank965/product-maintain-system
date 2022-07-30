@@ -4,15 +4,17 @@
 
 <div class="container">
 
-    <a href="/category" class="btn btn-secondary">Add new category</a>
-    <a href="/product" class="btn btn-secondary">Add new product</a>
+    <a href="/category" class="btn btn-primary">Add new category</a>
+    <a href="/product" class="btn btn-primary">Add new product</a>
+    <br>
+    <br>
     <table class="table">
         <thead>
           <tr>
             <th scope="col">Product ID</th>
             <th scope="col">Product Name</th>
             <th scope="col">Category</th>
-            <th scope="col">Handle</th>
+            <th scope="col"></th>
           </tr>
         </thead>
         <tbody>

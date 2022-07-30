@@ -19,8 +19,5 @@ class DatabaseSeeder extends Seeder
         for ($i=0; $i<100 ; $i++) { 
             \App\Models\Product::factory()->create();
         }
-        
-
-        
     }
 }

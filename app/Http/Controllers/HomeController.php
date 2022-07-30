@@ -25,6 +25,7 @@ class HomeController extends Controller
     public function index()
     {
         // get all data from product table
+        // Because, in the home view, system need to show all the products in DB.
         $all_product = Product::all();
         return view('home')->with('all_product', $all_product);
     }

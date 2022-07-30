@@ -23,7 +23,6 @@ class ProductFactory extends Factory
             'product_id' =>  fake()->unique()->numberBetween(10000,99999),
             'product_name' => Str::random(20),
             'category_name' => Category::factory()->create()->category_name,
-            
         ];
     }
 }
