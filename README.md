@@ -26,7 +26,10 @@ Database name -->  **abc_test**
 
 Open terminal in project foldel. Migrate Database. and insert table to fake generated data.
 
-- Migrate command -->  **php artisan migrate:refresh**
+- Migrate command
+```powershell
+php artisan migrate:refresh
+```
 - Data genarating command -->  **php artisan db:seed**
 
 
