@@ -16,25 +16,10 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        // \App\Models\User::factory(10)->create();
-
-        // \App\Models\User::factory()->create([
-        //     'name' => 'Test User',
-        //     'email' => 'test@example.com',
-        // ]);
-
-        // \App\Models\Category::factory()->create();
-        $category = Category::all();
-
-        echo Category::factory()->create();
-        $category_name = array_rand(array($category));
-
+        for ($i=0; $i<100 ; $i++) { 
+            \App\Models\Product::factory()->create();
+        }
         
-        \App\Models\Product::factory(10)->create(
-            ['product_id' =>  fake()->numberBetween(10000,99999),
-            'product_name' => fake()->unique()->word(),
-            'category_name' => Category::factory()->create()->category_name ]
-        );
 
         
     }
