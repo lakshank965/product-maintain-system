@@ -67,6 +67,6 @@ Running applications on the PHP server.
 ```powershell
 php artisan serve
 ```
-- Server runnin on http://127.0.0.1:8000
+- Server running on http://127.0.0.1:8000
 
 
